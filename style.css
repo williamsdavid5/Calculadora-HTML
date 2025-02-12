@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2D2C28;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h1,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#janela {
+    background-color: #FCF5E5;
+    width: 410px;
+    height: auto;
+    border: solid 5px black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 0px black;
+    padding-bottom: 5px;
+    /* padding: 20px; */
+}
+
+#resultado {
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* padding: 20px; */
+    /* margin: 20px; */
+    padding: 10px 0px;
+    border-bottom: solid 4px black;
+}
+
+#resultado h1,
+#resultado h3 {
+    margin-right: 20px;
+}
+
+#resultado h1 {
+    font-size: 60px;
+}
+
+#resultado h3 {
+    font-size: 30px;
+}
+
+#botoes {
+    /* background-color: red; */
+    width: 100%;
+    height: 450px;
+}
+
+.botaoControle {
+    width: 100%;
+    height: 100%;
+    background-color: #FCF5E5;
+    border-radius: 10px;
+    border: solid 3px black;
+    box-shadow: 4px 4px 0px black;
+    font-family: Arial Black;
+    font-size: 25px;
+}
+
+button:hover {
+    transform: scale(1.01);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+table {
+    width: 400px;
+    height: 450px;
+    border: none;
+}
+
+th,
+td {
+    border: none;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+
+    width: 25%;
+    /* height: 25%; */
+}
+
+.destaque {
+    background-color: #70CDDF;
+}
+
+#igualdade {
+    background-color: #FFDD02;
+}
+
+.destaque2 {
+    background-color: #2D2D25;
+    color: #FCF5E5;
+}
