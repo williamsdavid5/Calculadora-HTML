@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'heavitas';
+    src: url('font/Heavitas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -11,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: Arial Black, Helvetica, sans-serif;
+    font-family: 'heavitas', Arial Black, Helvetica, sans-serif;
     font-weight: bolder;
 
     background-color: #F6ECC9;
